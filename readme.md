@@ -68,10 +68,7 @@ You can test the behavior of these endpoints by making concurrent requests and o
     - Open two terminal windows.
     - In the first terminal, run:
       ```sh
-      curl -X 'POST' \
-'http://localhost:1010/pessimistic-write/deduct-balance/1/5' \
--H 'accept: */*' \
--d ''
+      curl -X POST -H "Content-Type: application/json" -d '' http://localhost:1010/pessimistic-write/deduct-balance/1/5
       ```
     - In the second terminal, quickly run the same command before the first one completes.
 
