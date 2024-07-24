@@ -1,8 +1,8 @@
-Here's a README for your GitHub repository that outlines the purpose, setup instructions, and usage of your Spring Boot JPA sample application demonstrating various locking mechanisms.
+
 
 ---
 
-# Spring Boot JPA Locking Mechanisms Sample
+# Spring Boot JPA Locking Mechanisms
 
 This repository contains a Spring Boot application demonstrating the usage of various JPA locking mechanisms, including `PESSIMISTIC_READ`, `PESSIMISTIC_WRITE`, `PESSIMISTIC_FORCE_INCREMENT`, `OPTIMISTIC`, and `OPTIMISTIC_FORCE_INCREMENT`. This sample is intended to provide hands-on experience with different locking strategies and their behaviors in concurrent scenarios.
 
