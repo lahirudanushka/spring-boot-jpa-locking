@@ -35,7 +35,7 @@ This application provides a set of RESTful APIs to demonstrate how different JPA
 ## Setup Instructions
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/spring-boot-jpa-locking-sample.git
+   git clone [https://github.com/yourusername/spring-boot-jpa-locking-sample.git](https://github.com/lahirudanushka/spring-boot-jpa-locking.git)
    cd jpa-locking
    ```
 
@@ -56,6 +56,9 @@ The application exposes several endpoints to demonstrate different JPA locking m
 
 ### Endpoints
 The endpoints and the curls can be found in the swagger document `http://localhost:1010/swagger-ui.html`
+
+![image](https://github.com/user-attachments/assets/063821c3-d962-426e-9cc1-4e3d9f6f1676)
+
 
 ## Testing
 You can test the behavior of these endpoints by making concurrent requests and observing the outcomes. For example, using two different terminal windows or Postman tabs, you can simultaneously send `POST` requests to deduct the balance and see how each locking mechanism handles the concurrency.
